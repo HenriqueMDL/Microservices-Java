@@ -15,7 +15,7 @@ consul kv put config/product-api/app.promotion.message "Promoção Semana do Cli
 consul kv put config/product-api,en/app.promotion.message "Christmas Promotion!!!!"
 
 consul kv put config/currency-api/server.port "8100"
-consul kv put config/currency-api/spring.datasource.url "jdbc:postgresql://localhost:/db_currency"
+consul kv put config/currency-api/spring.datasource.url "jdbc:postgresql://localhost/db_currency"
 consul kv put config/currency-api/spring.datasource.username "postgres"
 consul kv put config/currency-api/spring.datasource.password "postgres"
 
